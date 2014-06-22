@@ -12,13 +12,13 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 The R script run_analysis.R downloads and processes that data from this URL. 
 
-R program run_analysis.R generates files tidy_HCI_HAR_data.csv and average_HCI_HAR_data.csv in the 
+R program run_analysis.R generates files tidy_HCI_HAR_data.txt and average_HCI_HAR_data.txt in the 
 directory from which the script is called.
 
 ##Code Book 
 
-###tidy_HCI_data.csv
-tidy_HCI_data.csv is a comma delimited file. The first line contains column headings. The file
+###tidy_HCI_data.txt
+tidy_HCI_data.txt is a space delimited file. The first line contains column headings. The file
 contains the mean and standard deviations collected in the original dataset. The measurements have 
 been combined with a features dataset that provides measurement labels, a subject dataset containing
 identifiers for the study's subjects, and an activity dataset associating the measurements with 
@@ -119,9 +119,9 @@ The data in this file are described in the following table
 | angle(ZgravityMean)                 | Measurement          | Normalized and bounded between -1 and 1 |
 
 
-###average_HCI_data.csv
-average_HCI_data.csv is a comma delimited file. The first line contains column headings. The file
-contains the measurements in tidy_HCI_data.csv averaged by Subject, Activity_ID, and Activity.
+###average_HCI_data.txt
+average_HCI_data.txt is a space delimited file. The first line contains column headings. The file
+contains the measurements in tidy_HCI_data.txt averaged by Subject, Activity_ID, and Activity.
 
 The data in this file are described in the following table
 

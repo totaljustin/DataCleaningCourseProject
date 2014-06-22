@@ -62,5 +62,5 @@ names(avg_data)[names(avg_data) == "Group.3"] <- "Activity"
 
 #Write out new data sets
 setwd(root_dir)
-write.table(all_data,"tidy_HCI_HAR_data.csv",sep=",",row.names=FALSE)
-write.table(avg_data,"average_HCI_HAR_data.csv",sep=",",row.names=FALSE)
+write.table(all_data,"tidy_HCI_HAR_data.txt",row.names=FALSE)
+write.table(avg_data,"average_HCI_HAR_data.txt",row.names=FALSE)
